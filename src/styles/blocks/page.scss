@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  scroll-behavior: smooth;
+
+  &__body {
+    margin: 0;
+    padding: 0;
+    background: $c-gray;
+    overflow-x: hidden;
+  }
+}
+
+.container {
+  @include content-padding-inline;
+  
+  width: 100%;
+}
