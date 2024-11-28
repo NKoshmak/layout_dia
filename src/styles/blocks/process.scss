@@ -22,9 +22,10 @@
     @include page-grid;
 
     grid-column: 1/-1;
-    justify-items: center;
-    align-items: center;
-
+    place-items: center;
+    
+    // justify-items: center;
+    // align-items: center;
     @include on-desktop {
       grid-column: 6 / 13;
     }
@@ -92,7 +93,7 @@
   }
 
   &:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   &:hover {

@@ -15,7 +15,6 @@
 
   &__title {
     font-weight: 700;
-    color: $text-color;
 
     @include header-style($size: 13px, $lineHeight: 19.5px);
 

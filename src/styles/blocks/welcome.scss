@@ -18,6 +18,7 @@
 
   &__description {
     @include text-style($fontSize: 22px, $lineHeight: 33px);
+    
     text-align: center;
     color: #6C788B;
     margin: 0;

@@ -29,8 +29,10 @@
     @include page-grid;
 
     grid-column: span 2;
-    justify-items: center;
-    align-items: center;
+    place-items: center;
+    
+    // justify-items: center;
+    // align-items: center;
   }
 }
 
@@ -41,7 +43,7 @@
   height: 456px;
   background-color: $text-color;
   border-radius: 23px;
-  box-shadow: 0px 9px 18px 0px #25293108;
+  box-shadow: 0 9px 18px 0 #25293108;
   padding: 32px 42px;
   margin-bottom: 24px;
 
@@ -55,8 +57,10 @@
   @include on-tablet {
     grid-column: span 6;
     min-width: 100%;
-    justify-items: center;
-    align-items: center;
+    place-items: center;
+
+    // justify-items: center;
+    // align-items: center;
   }
 
   @include on-desktop {
@@ -99,7 +103,7 @@
     margin: 0;
 
     @include header-style($size: 13px, $lineHeight: 19.5px);
-    
+
     font-weight: 700;
     letter-spacing: 3px;
     text-align: center;
