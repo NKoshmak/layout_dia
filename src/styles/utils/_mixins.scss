@@ -32,19 +32,16 @@
 
   @include on-desktop {
     max-width: 1024px;
-    margin-inline: auto;
     padding-inline: 54px;
   }
 
   @include on-desktop-l {
     max-width: 1600px;
-    margin-inline: auto;
     padding-inline: 227px;
   }
 
   @include on-desktop-xl {
     max-width: 2560px;
-    margin-inline: auto;
     padding-inline: 707px;
   }
 }
@@ -79,7 +76,7 @@
 
   @include on-tablet {
     --columns: 6;
-    
+
     column-gap: 24px;
   }
 

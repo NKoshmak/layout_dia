@@ -1,5 +1,5 @@
 .what-we-do {
-  width: 100%;
+  min-width: 100%;
   margin: 0 auto;
   background-color: $text-color;
   border-radius: 30px;
@@ -27,6 +27,9 @@
 
   &__cards {
     @include page-grid;
+
+    justify-items: center;
+    align-items: center;
   }
 }
 

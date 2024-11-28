@@ -12,12 +12,10 @@
 
     @include content-padding-inline;
 
-    display: flex;
-    flex-direction: column;
-
     @include on-desktop {
-      margin-top: 160px;
       grid-column: span 4;
+      margin: 0 auto;
+      margin-top: 168px;
     }
   }
 
@@ -84,6 +82,10 @@
     line-height: 27px;
     margin-bottom: 72px;
     text-align: left;
+
+    @include on-desktop {
+      grid-column: span 4;
+    }
   }
 
   &__btn {
