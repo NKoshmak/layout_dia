@@ -30,28 +30,23 @@
     @include page-grid;
 
     place-items: center;
+    column-gap: 40px;
   }
 }
 
 .card {
   grid-column: 1/-1;
   place-items: center;
-
-  // justify-items: center;
-  // align-items: center;
   cursor: pointer;
 
   @include on-tablet {
     grid-column: 2 / 6;
     place-items: center;
-
-    // justify-items: center;
-    // align-items: center;
   }
 
   @include on-desktop {
     grid-column: span 4;
-    place-items: center;
+    width: 166px;
   }
 
   &__text-block {
@@ -60,6 +55,10 @@
     @include on-tablet {
       grid-column: 2 / 6;
       place-items: center;
+    }
+
+    @include on-desktop {
+      text-align: justify;
     }
   }
 
