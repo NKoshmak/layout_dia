@@ -232,7 +232,7 @@ margin-bottom: 40px;
     text-transform: uppercase;
   }
 
-  &__item {
-    @include hover(transform, translateY(-20%) scale(1.1));
+  &__item:hover {
+      @include hover(transform, scale(1.1));
   }
 }

@@ -23,112 +23,135 @@
   </head>
   <body class="page__body">
     <header class="header" id="home">
-      <div class="header__nav">
-        <div class="header__nav--left">
-          <div class="header__logo">
-            <a href="#">
-              <img
-                src="./images/logo/Logo .svg"
-                alt="logo"
-              >
-            </a>
+      <div class="container">
+        <div class="header__nav">
+          <div class="header__nav__desktop">
+            <div class="header__icons-left">
+              <a href="#" class="icon icon--logo">
+                <img src="./images/logo/Logo .svg" alt="logo">
+              </a>
+
+              <a href="#menu" class="menu-icon">
+                <img src="./images/icons/Menu.svg" alt="menu">
+              </a>
+            </div>
+
+
+            <nav class="nav nav__desktop">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#about" class="nav__link">About us</a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="#services" class="nav__link">Services</a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="#testimonials" class="nav__link">Testimonials</a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="#contact-us" class="nav__link">Contact us</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="header__icon-right">
+              <a
+                class="hire__logo__link"
+                href="#footer__form"
+               >
+               Hire us
+              </a>
+            </div>
           </div>
 
-          <div class="header__menu-icon">
-            <a href="#work" class="menu-icon">
-              <img src="./images/icons/Menu.svg" alt="menu">
-            </a>
-          </div>
-        </div>
+          <aside class="menu page__menu" id="menu">
+            <div class="container">
+              <div class="header__nav header__icons">
+                <a href="#" class="header__icon icon--logo">
+                  <img
+                    src="./images/logo/Logo .svg"
+                     alt="logo"
+                  >
+                </a>
 
-        <nav class="nav nav__header">
-          <ul class="nav__list nav__list__header">
-            <li class="nav__item">
-              <a href="#about" class="nav__link">About us</a>
-            </li>
+                <a href="#" class="header__icon icon--close">
+                  <span class="header__icon fa-sharp fa-solid fa-xmark fa-2x"></span>
+                </a>
+              </div>
 
-            <li class="nav__item">
-              <a href="#services" class="nav__link">Services</a>
-            </li>
-
-            <li class="nav__item">
-              <a href="#testimonials" class="nav__link">Testimonials</a>
-            </li>
-
-            <li class="nav__item">
-              <a href="#contact-us" class="nav__link">Contact us</a>
-            </li>
-          </ul>
-        </nav>
-
-
-        <div class="hire__logo">
-          <a
-            class="hire__logo__link"
-            href="#footer__form"
-          >
-            Hire us
-          </a>
+              <nav class="nav">
+                <ul class="nav__list menu__nav__list">
+                  <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                  <li class="nav__item"><a href="#about" class="nav__link">About us</a></li>
+                  <li class="nav__item"> <a href="#services" class="nav__link">Services</a></li>
+                  <li class="nav__item"><a href="#testimonials" class="nav__link">Testimonials</a></li>
+                  <li class="nav__item"><a href="#contact-us" class="nav__link">Contact us</a></li>
+                </ul>
+              </nav>
+            </div>
+          </aside>
         </div>
       </div>
 
-
       <div class="header__content">
-        <div class="header__text">
-          <h1 class="header__title">Strategic Agency</h1>
-          <p class="header__description">We believe in the power of bold ideas that can solve business challenges.</p>
-          <a href="#" class="header__btn">Learn more</a>
+        <div class="container">
+          <div class="header__text">
+            <h1 class="header__title">Strategic Agency</h1>
+            <p class="header__description">We believe in the power of bold ideas that can solve business challenges.</p>
+            <a href="#" class="header__btn">Learn more</a>
+          </div>
         </div>
 
-        <div class="slider">
-          <div class="slides">
-            <div class="slide">
+        <div class="header__slider right">
+          <div class="header__slides">
+            <div class="header__slide">
               <img src="./images/slider/first.jpeg" alt="Image 1">
             </div>
-            <div class="slide">
+            <div class="header__slide">
               <img src="./images/slider/second.png" alt="Image 2">
             </div>
-            <div class="slide">
+            <div class="header__slide">
               <img src="./images/slider/third.jpeg" alt="Image 3">
             </div>
           </div>
 
-          <div class="arrow">
+          <div class="header__arrow">
             <img
-                class="arrow-left"
+                class="header__arrow-left"
                 src="./images/slider/Arrow left.svg"
                 alt="arrow left"
               >
             <img
-                class="arrow-right"
+                class="header__arrow-right"
                 src="./images/slider/Arrow right.svg"
                 alt="arrow right"
               >
           </div>
 
-          <p class="slider__title">intro</p>
-          <p class="slider__info">By the same illusion which lifts the horizon.</p>
+          <p class="header__slider__title">intro</p>
+          <p class="header__slider__info">By the same illusion which lifts the horizon.</p>
         </div>
-        <!-- </div> -->
       </div>
-    </div>
     </header>
 
-    <main class="main">
-      <section class="welcome" id="about">
-        <div class="container">
-          <div class="welcome__content">
-            <h2 class="welcome__title">Who we are</h2>
-            <p class="welcome__description">
-              We embrace a strategic approach to creative ideas.
-              We are interested in people and human relationships.
-              This is the main thing you need to know about us.
-              We believe in the power of bold ideas that can solve business challenges.
-            </p>
-          </div>
+    <section class="welcome" id="about">
+      <div class="container">
+        <div class="welcome__content">
+          <h2 class="welcome__title">Who we are</h2>
+          <p class="welcome__description">
+            We embrace a strategic approach to creative ideas.
+            We are interested in people and human relationships.
+            This is the main thing you need to know about us.
+            We believe in the power of bold ideas that can solve business challenges.
+          </p>
         </div>
-      </section>
+      </div>
+    </section>
 
+    <main class="main">
       <section class="what-we-do" id="work">
         <div class="container">
           <div class="what-we-do__content">
@@ -329,17 +352,17 @@
           </div>
         </div>
       </section>
-
-      <section class="cta-block">
-        <div class="cta-block__content container">
-          <h2 class="cta-block__title">Vision, Passion, Results</h2>
-          <p class="cta-block__info">
-            We are sure that first-rate job is possible only if all three components are united.
-          </p>
-          <a class="cta-block__btn" href="#contact-us">Apply</a>
-        </div>
-      </section>
     </main>
+
+    <section class="cta-block">
+      <div class="cta-block__content container">
+        <h2 class="cta-block__title">Vision, Passion, Results</h2>
+        <p class="cta-block__info">
+          We are sure that first-rate job is possible only if all three components are united.
+        </p>
+        <a class="cta-block__btn" href="#contact-us">Apply</a>
+      </div>
+    </section>
 
     <footer class="footer" id="contact-us">
       <div class="container">
@@ -454,7 +477,6 @@
 
     </div>
     </footer>
-
 
     <script src="scripts/main.js"></script>
   </body>

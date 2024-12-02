@@ -5,12 +5,14 @@
 
   background-color: $text-color;
   padding: 72px 0;
+  margin-bottom: 120px;
 
   @include on-tablet {
     height: 796px;
     background-image: url(../images/Shapes.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 0;
   }
 
   &__title {
